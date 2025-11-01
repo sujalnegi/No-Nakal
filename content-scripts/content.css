@@ -1,0 +1,21 @@
+#no-nakal-blocker {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(179, 0, 0, 0.95); /* Semi-transparent red/black */
+    color: white;
+    z-index: 2147483647; /* Max z-index to ensure it's on top of everything */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    pointer-events: all; /* Important to block interaction with the underlying page */
+    user-select: none;
+    cursor: default;
+}
